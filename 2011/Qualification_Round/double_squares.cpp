@@ -10,6 +10,10 @@ int main () {
     cin >> cases;
     assert(1 <= cases);
     assert(cases <= 100);
-    cout << cases << endl;
+    for (int i = 0; i < cases; i++) {
+        int value;
+        cin >> value;
+        cout << "Case #" << i << ": " <<  << endl;
+    }
     return 0;
 }
